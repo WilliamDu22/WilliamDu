@@ -8,7 +8,9 @@ William's Personal Repo
 [Week 0 Plans, Teams, and Jobs Review Ticket - William Du](https://github.com/WilliamDu22/WilliamDuRepository/issues/1)
 
 # Replit
-[Function Menu](https://replit.com/@WilliamDu6/CSP#main.py)
+
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@WilliamDu6/CSP#main.py?embed=true">
+
 
 # Create Task Project
 [All Create Task Items](https://github.com/NoahJ214/Team-Aaiaa-Project-Tri-2/wiki/William-Du-Evaluation-of-Create-Task-Project)
