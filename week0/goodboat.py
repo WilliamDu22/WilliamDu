@@ -10,8 +10,8 @@ RESET_COLOR = u"\u001B[0m\u001B[2D"
 def ocean_print():
     # print ocean
     print(ANSI_CLEAR_SCREEN, ANSI_HOME_CURSOR)
-    print("\n\n\n\n\n\n\n\n")
-    print(OCEAN_COLOR + "  " * 46)
+    print("\n\n\n\n\n\n\n")
+    print(OCEAN_COLOR + "  " *50)
   
   
 # print ship with colors and leading spaces
@@ -19,14 +19,14 @@ def ship_print(position):
     print(ANSI_HOME_CURSOR)
     print(RESET_COLOR)
     sp = " " * position
-    print(sp + "              |    |    |            ")
-    print(sp + "             )_)  )_)  )_)           ")
-    print(sp + "            )___))___))___)          ")
-    print(sp + "           )____)____)_____)         ")
+    print(sp + "              |    |    |     ")
+    print(sp + "             )_)  )_)  )_)    ")
+    print(sp + "            )___))___))___)   ")
+    print(sp + "           )____)____)_____)  ")
     print(SHIP_COLOR, end="")
-    print(sp + "         _____|____|____|____        ")
-    print(sp + "         \                   /       ")
-    print(sp + "          \_________________/        ")
+    print(sp + "         _____|____|____|____ ")
+    print(sp + "         \                   /")
+    print(sp + "          \_________________/ ")
     print(RESET_COLOR)
   
   

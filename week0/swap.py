@@ -5,6 +5,6 @@ def sort(a, b):
 
 
 def run():
-  a = input("first number ")
-  b = input("second numer ")
+  a = input("first number")
+  b = input("second numer")
   print(', '.join(sort(a, b)))
