@@ -9,20 +9,20 @@ class Factorial:
 
 
 def test():
-  macoop = Factorial()
+  same = Factorial()
   n = random.randint(0, 750)
   k = random.randint(0, 900)
-  print(f"{n}!({k}) =", macoop(n, k))
+  print(f"{n}!({k}) =", same(n, k))
   n = random.randint(0, 750)
   k = random.randint(0, 900)
-  print(f"{n}!({k}) =", macoop(n, k))
+  print(f"{n}!({k}) =", same(n, k))
   n = random.randint(0, 750)
   k = random.randint(0, 900)
-  print(f"{n}!({k}) =", macoop(n, k))
+  print(f"{n}!({k}) =", same(n, k))
 
 
 def run():
-  macoop = Factorial()
+  same = Factorial()
   try:
     n = int(input("What multifactorial? "))
     k = int(input("How many steps? "))
@@ -31,6 +31,6 @@ def run():
     elif k < 0:
       print("input a number greater than 0")
     else:
-      print(f"{n}!({k}) =", macoop(n, k))
+      print(f"{n}!({k}) =", same(n, k))
   except:
     print("integer")

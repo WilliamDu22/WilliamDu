@@ -7,8 +7,8 @@ import week1.infodb as infodb
 import week1.fib as fib
 import week2.factorial as fac
 import week2.palindrome as pal
-import week2.multifactorialimperative as macimp
-import week2.multifactorialoop as macoop
+import week2.multifactorialimperative as name
+import week2.multifactorialoop as same
 
 #####
 main_menu = [
@@ -56,15 +56,15 @@ palsub_menu = [
 ]
 
 
-macimpsub_menu = [
-    ["Multifactorial Calculator", macimp.run],
-    ["Multifactorial Test", macimp.test]
+namesub_menu = [
+    ["Multifactorial Calculator", name.run],
+    ["Multifactorial Test", name.test]
 ]
 
 
-macoopsub_menu = [
-    ["Multifactorial Calculator", macoop.run],
-    ["Multifactorial Test", macoop.test]
+samesub_menu = [
+    ["Multifactorial Calculator", same.run],
+    ["Multifactorial Test", same.test]
 ]
 #####
 
@@ -73,8 +73,8 @@ def mathsubmenu():
     mathmenu_list = mathsub_menu.copy()
     mathmenu_list.append(["Fibonacci", fibsubmenu])
     mathmenu_list.append(["Factorial", facsubmenu])
-    mathmenu_list.append(["Multifactorial (Imperative)", macimpsubmenu])
-    mathmenu_list.append(["Multifactorial (OOP)", macoopsubmenu])
+    mathmenu_list.append(["Multifactorial (Imperative)", namesubmenu])
+    mathmenu_list.append(["Multifactorial (OOP)", samesubmenu])
     buildMenu(title, mathmenu_list)
 
 
@@ -118,14 +118,14 @@ def palsubmenu():
     buildMenu(title, palsub_menu)
 
 
-def macimpsubmenu():
+def namesubmenu():
     title = "Multifactorial (Imperative)" + banner
-    buildMenu(title, macimpsub_menu)
+    buildMenu(title, namesub_menu)
 
 
-def macoopsubmenu():
+def samesubmenu():
     title = "Multifactorial (OOP)" + banner
-    buildMenu(title, macoopsub_menu)
+    buildMenu(title, samesub_menu)
 #####
 
 border = "=" * 25

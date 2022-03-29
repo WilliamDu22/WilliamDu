@@ -1,22 +1,22 @@
 import random
 
 
-def macimp(n, k):
+def name(n, k):
   if n <= 1:
     return 1
-  return n * macimp(n - k, k)
+  return n * name(n - k, k)
 
 
 def test():
   n = random.randint(0, 750)
   k = random.randint(0, 900)
-  print(f"{n}!({k}) =", macimp(n, k))
+  print(f"{n}!({k}) =", name(n, k))
   n = random.randint(0, 750)
   k = random.randint(0, 900)
-  print(f"{n}!({k}) =", macimp(n, k))
+  print(f"{n}!({k}) =", name(n, k))
   n = random.randint(0, 750)
   k = random.randint(0, 900)
-  print(f"{n}!({k}) =", macimp(n, k))
+  print(f"{n}!({k}) =", name(n, k))
 
 
 def run():
@@ -28,6 +28,6 @@ def run():
     elif k < 0:
       print("input a number greater than 0")
     else:
-      print(f"{n}!({k}) =", macimp(n, k))
+      print(f"{n}!({k}) =", name(n, k))
   except:
     print("integer")
