@@ -27,4 +27,7 @@ def run():
     print(f'"{n}" is' + pal(n) + "a palindrome")
   except:
     print("string")
-    
+
+
+if __name__ == "__main__":
+  run()
