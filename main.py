@@ -29,7 +29,7 @@ printsub_menu = [
 
 ##
 animationsub_menu = [
-    ["Animation 1", badboat.run],
+    ["Animation 1", badboat.ship],
     ["Animation 2", goodboat.ship]
 ]
 
