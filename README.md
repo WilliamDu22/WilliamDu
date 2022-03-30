@@ -9,7 +9,7 @@ William's Personal Repo
 
 [Week 1 List And Loops - William Du](https://github.com/WilliamDu22/WilliamDuRepository/issues/2)
 
-
+[Week 2 Classy Functions - William Du](https://github.com/WilliamDu22/WilliamDuRepository/issues/4)
 
 # Create Task Project
 [All Create Task Items](https://github.com/NoahJ214/Team-Aaiaa-Project-Tri-2/wiki/William-Du-Evaluation-of-Create-Task-Project)
