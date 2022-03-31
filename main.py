@@ -9,6 +9,7 @@ import week2.factorial as fac
 import week2.palindrome as pal
 import week2.multifactorialimperative as name
 import week2.multifactorialoop as same
+import crossover.timestable as timestable
 
 #####
 main_menu = [
@@ -16,6 +17,7 @@ main_menu = [
 
 #
 mathsub_menu = [
+    ["Timestable", timestable.timestable]
 ]
 
 manipulationsub_menu = [
