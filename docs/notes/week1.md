@@ -1,3 +1,4 @@
+{% include notesnav.html %}  
 **5.3 Notes**
 
 Computer Bias
