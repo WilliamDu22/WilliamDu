@@ -1,4 +1,5 @@
-{% include notesnav %}
+{% include notesnav.html %}  
+
 **5.1 Notes**
 
 
