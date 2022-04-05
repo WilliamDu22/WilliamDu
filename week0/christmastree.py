@@ -20,3 +20,6 @@ def options():
     tree(n, p)
   except:
     print("How tall means u gotta put in a number :/")
+
+if __name__ == "__main__":
+  tree(5, 10)

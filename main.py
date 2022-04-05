@@ -10,7 +10,7 @@ import week2.palindrome as pal
 import week2.multifactorialimperative as name
 import week2.multifactorialoop as same
 import crossover.timestable as timestable
-
+from week0.fixedtree import tree
 #####
 main_menu = [
 ]
@@ -26,7 +26,8 @@ manipulationsub_menu = [
 
 printsub_menu = [
     ["Keypad", keypad.run],
-    ["Christmas Tree", christmastree.options]
+    ["Christmas Tree", christmastree.options],
+    ["Fixed Tree", tree]
 ]
 
 ##
@@ -135,13 +136,13 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 
 def buildMenu(banner, options):
-    print(banner)
+    print("\u001b[31m",banner)
     prompts = {0: ["Exit", None]}
     for op in options:
         index = len(prompts)
         prompts[index] = op
     for key, value in prompts.items():
-        print(key, '->', value[0])
+        print("\u001b[36m",key, '->', value[0])
     choice = input("Type your choice> ")
     try:
         choice = int(choice)
@@ -156,9 +157,9 @@ def buildMenu(banner, options):
             except FileNotFoundError:
                 print(f"File not found!: {action}")
     except ValueError:
-        print(f"Not a number: {choice}")
+        print("\u001b[33m",f"Not a number: {choice}")
     except UnboundLocalError:
-        print(f"Invalid choice: {choice}")
+        print("\u001b[33m",f"Invalid choice: {choice}")
     buildMenu(banner, options)
 
 
