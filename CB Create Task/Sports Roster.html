@@ -6,6 +6,46 @@
 </style>
 
 
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #ffb133;
+            color: white;
+            font-size: 30px;
+        }
+
+        /* Page Content */
+        .content {padding:20px;}
+    </style>
+</head>
+<body>
+
+
+
+<div class="header">
+    <h1>NBA TEAM ROSTERS</h1>
+    <img src="https://cdn.freebiesupply.com/images/large/2x/nba-logo-transparent.png" alt="alternatetext" width=150 height="255">
+</div>
+
+
+
+<div class="content">
+    <h1><p style="text-align:center">Enter a Basketball Team Below to Get a List of the Players!</p></h1>
+</div>
+
+</body>
+</html>
+
+
+
+
+
 
 <!-- Load icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,18 +53,20 @@
 
 
 <!-- The form -->
+<link href="searchbar.css" rel="stylesheet" type="text/css">
 <form class="searchbar">
     <input type="text" id = "form" placeholder="Search.." name="search">
 
-    <button onclick="myFunction()" type="submit"><i class="fa fa-search"></i>
-    </button>
+    <button onclick="myFunction()" type="submit"><i class="fa fa-search"></i></button>
+
+
 </form>
 <script>
 
 
     var dict={
 
-        "76ers":["Brown Jr., Charlie","Bassey, Charles","Cauley-Stein, Willie","Embiid, Joel","Green, Danny","Harris, Tobias","Harden, James","Joe, Isaiah","Korkmaz, Furkan","Maxey, Tyrese","Millsap, Paul","Milton, Shake","Niang, Georges","Powell, Myles","Reed, Paul","Springer, Jaden","Thybulle, Matisse"],
+        "76ers":["Charles Bassey"," Charlie Brown Jr"," Joel Embiid"," Danny Green"," James Harden"," Tobias Harris"," Isaiah Joe"," DeAndre Jordan"," Furkan Korkmaz"," Tyrese Maxey"," Paul Millsap"," Shake Milton"," Georges Niang"," Myles Powell"," Paul Reed"," Jaden Springer"," and Matisse Thybulle"],
         "bucks":["Allen, Grayson","Antetokounmpo, Thanasis","Antetokounmpo, Giannis","Bembry, DeAndre","Carter, Jevon","Connaughton, Pat","Holiday, Jrue","Hill, George","Ibaka, Serge","Lopez, Brook","Middleton, Khris","Matthews, Wesley","Mamukelashvili, Sandro","Nwora, Jordan","Portis, Bobby","Wigginton, Lindell"],
         "bulls":["Bradley, Tony","Brown Jr., Troy","Ball, Lonzo","Caruso, Alex","Cook, Tyler","Dosunmu, Ayo","DeRozan, DeMar","Green, Javonte","Hill, Malcolm","Jones Jr., Derrick","LaVine, Zach","Simonovic, Marko","Thompson, Tristan","Thomas, Matt","Vucevic, Nikola","Williams, Patrick","White, Coby"],
         "cavaliers":["Allen, Jarrett","Davis, Ed","Goodwin, Brandon","Garland, Darius","LeVert, Caris","Love, Kevin","Markkanen, Lauri","Mobley, Evan","Nembhard Jr., RJ","Okoro, Isaac","Osman, Cedi","Rondo, Rajon","Stevens, Lamar","Sexton, Collin","Wade, Dean","Windler, Dylan"],
