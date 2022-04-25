@@ -28,4 +28,28 @@ Question 42: 1001 0100 or A becuase that is the order of binary corsponding to t
 Question 43: C because the user is sent an e-mail appearing to be from the manufacturer, asking the user to confirm the account password by clicking on a link in the e-mail and entering the password on the resulting page.
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+Finals Quiz 2
+
+Score: 40/50
+
+Corrections:
+Question 4: B because the digital divide describes the differences in access to computing devices and the Internet. Requiring job applicants to apply online serves only individuals who already have access to computing devices and the Internet. It does not help reduce the divide.
+
+Question 14: A because the two line graphs are roughly the same shape. Each value on the right line graph is about 10 times the corresponding value on the left line graph. Therefore, the average amount of data stored per user is about 10 GB.
+
+Question 22: B because IPv6 allows for a greater number of IP addresses than IPv4 does, which allows more devices to be connected.
+
+Question 24: The correct answer is C because if a particular device or connection on the Internet fails, subsequent data will be sent via a different route, if possible. This is supported by redundancy in the network.
+
+Question 25: C because the application can be used to connect users with other nearby users, which may encourage users to exercise together. This may have the effect of improving user health.
+
+Question 30: C because the application can be used to connect users with other nearby users, which may encourage users to exercise together. This may have the effect of improving user health.
+
+Question 31: A because the binary number 11111111 is equal to 27+26+25+24+23+22+21+20, or 255. The binary number 11110000 is equal to 27+26+25+24, or 240. Therefore, the given binary triplet represents the color ivory.
+
+Question 32: D because four bits can represent 24, or 16 pieces of information.
+
+Question 40: D because citizen science involves members of the general public participating in scientific research. Distributing the image analysis work to a larger group of individuals allows the work to be completed in less time.
