@@ -6,5 +6,6 @@
 
 [Week 2 Classy Functions - William Du](https://github.com/WilliamDu22/WilliamDuRepository/issues/4)
 
-[Week 3 Accounts and Logins - William Du](https://github.com/WilliamDu22/WilliamDuRepository/issues/6
-)
+[Week 3 Accounts and Logins - William Du](https://github.com/WilliamDu22/WilliamDuRepository/issues/6)
+
+[Proctored MCQ Week 1 - William Du](https://github.com/WilliamDu22/WilliamDuRepository/issues/8)
