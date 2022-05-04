@@ -56,3 +56,47 @@ Question 31: A because the binary number 11111111 is equal to 27+26+25+24+23+22+
 Question 32: D because four bits can represent 24, or 16 pieces of information.
 
 Question 40: D because citizen science involves members of the general public participating in scientific research. Distributing the image analysis work to a larger group of individuals allows the work to be completed in less time.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Finals Quiz 2
+
+Score: 34/50
+
+Corrections:
+Question 2: D, an undecidable problem is one for which no algorithm can be constructed that is always capable of providing a correct yes-or-no answer. Some instances of an undecidable problem may have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem.
+
+Question 4: D because devices on the Internet communicate using standard protocols, which do not depend on the manufacturer.
+
+Question 7: D because the procedure initially sets result to 1 and j to 2. In the REPEAT UNTIL loop, result is first assigned the sum of result and j, or 1 + 2. The value of j is then increased to 3. In each subsequent iteration of the loop, result is increased by each successive value of j (3, 4, 5, etc.) until j exceeds n. Therefore, the procedure returns the sum of the integers from 1 to n.
+
+Question 15: D because During initial program development, documentation can allow the writer to organize his or her thinking, state assumptions about input, and explain the path of future development. When modifications are made to existing programs, documentation is used to record the changes or additions to an existing program.
+
+Question 17: Options C and D is the correct order of the list.
+
+Question 18: C because the procedure traverses this list and eventually encounters the positive value 1. At this point, the procedure returns true when it should return false because the list does not contain only positive values.
+
+Question 21: D because a strong password is something that is easy for a user to remember but would be difficult for someone else to guess based on knowledge of that user. Weak passwords can often be guessed based on publicly available information about a user. Other weak passwords (such as "password" or "1234") can often be guessed because they are commonly used.
+
+Question 23: D because its the average number of characters per message appears to decrease after the mobile app was released.
+
+Question 26: B because in all four grids, the robot starts along the side of a black region. Step 1 moves the robot just past the end of the black region. Step 2 rotates the robot to the right and moves it forward, placing the robot along the next side of the black region. Step 3 will repeat steps 1 and 2 to move the robot around the other 3 sides to complete a circuit around the black region.
+
+Question 27: B because it shows to be counted, the value of genre must be "talk" and the value of day must be "Saturday" or "Sunday".
+
+Question 36: D because when numCorrect is 6, the condition numCorrect > 7 evaluates to false. Therefore "check" is displayed instead of the intended "check minus".
+
+Question 39: B because it would be the total number of registered users appears to be increasing by about 0.5 million each year, so in year 12, the number of users can be approximated at 31.2 million (30.2 + 0.5 + 0.5).
+
+Question 44: D because The procedures square and cube are each used to determine a power of n. A generalization of this procedure is Power, open parenthesis, n comma m, close parenthesis, which calculates n raised to the m power.
+
+Question 46: B, symmetric encryption because the secret key is used for both encryption and decryption of messages.
+
+Question 47: D because This code segment sets bonus to 0 when score < 50, sets bonus to score * 10 when score > 100, and sets bonus to score when 100 ≥ score ≥ 50.
+
+Question 50: A, the variable first is initially assigned the value 100 and the variable second is initially assigned the value 200. Next, temp is assigned the value of first, which is 100. Next, second is assigned the value of temp, which is 100. Last, first is assigned the value of second, which is 100. After execution, both first and second have the value 100.
