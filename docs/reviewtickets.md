@@ -10,4 +10,4 @@
 
 [Proctored MCQ Week 1](https://github.com/WilliamDu22/WilliamDuRepository/issues/8)
 
-[Week 6 Quiz3 and Create Task Review](https://github.com/WilliamDu22/WilliamDuRepository/issues/8)
+[Week 6 Quiz3 and Create Task Review](https://github.com/WilliamDu22/WilliamDuRepository/issues/9)
