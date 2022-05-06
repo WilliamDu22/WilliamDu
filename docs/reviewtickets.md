@@ -12,4 +12,4 @@
 
 [Week 6 Quiz3 and Create Task Review](https://github.com/WilliamDu22/WilliamDuRepository/issues/9)
 
-[Week 7 AP Exams Week 1 #10](https://github.com/WilliamDu22/WilliamDuRepository/issues/10)
+[Week 7 AP Exams Week 1](https://github.com/WilliamDu22/WilliamDuRepository/issues/10)
